@@ -46,7 +46,7 @@ module.exports = async (req, res) => {
 				Connection: "keep-alive",
 			},
 			pathRewrite: {
-				"^/backend-ip/": "/",
+				"^/backend-ipa/": "/",
 			},
 			cache: false, //禁用缓存
 		})(req, res);
