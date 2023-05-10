@@ -3,7 +3,7 @@
 
 	"rewrites": [
 		{
-			"source": "/backend-ipa/(.*)",
+			"source": "/backend-ip/(.*)",
 			"destination": "/api/ipproxy"
 		},
 		{
