@@ -1,0 +1,18 @@
+{
+	"version": 2,
+
+	"rewrites": [
+		{
+			"source": "/backend-ip/(.*)",
+			"destination": "/api/ipproxy"
+		},
+		{
+			"source": "/backend-wea/(.*)",
+			"destination": "/api/weaproxy"
+		},
+		{
+			"source": "/backend/(.*)",
+			"destination": "/api/testproxy"
+		}
+	]
+}
